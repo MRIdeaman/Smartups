@@ -1,4 +1,4 @@
-<script>
+
 // Create a variable for the API endpoint. In this example, we're accessing Xano's API
 let xanoUrl = new URL('https://x8ki-letl-twmt.n7.xano.io/api:vK8uySk8/webflow_idea_submission_form');
 
@@ -105,4 +105,3 @@ function getRestaurants() {
 })();
 
 
-</script>
