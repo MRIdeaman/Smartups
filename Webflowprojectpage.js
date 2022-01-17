@@ -1,4 +1,4 @@
-<script>
+
 // Create a request variable and assign a new XMLHttpRequest object to it. 
 var myUrl = new URL(document.location.href);
 var myParam = myUrl.searchParams.get("id") || 1;
@@ -48,5 +48,3 @@ request.onload = function() {
 // Send request
 request.send()
 
-
-</script>
