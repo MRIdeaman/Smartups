@@ -52,8 +52,8 @@ function getRestaurants() {
                 });
 
                 // For each restaurant, Create an image and use the restaurant image coming from the API
-                const img = card.getElementsByTagName('IMG')[0]
-                img.src = restaurant.YourImage.url + "?tpl=big:box"; // using Xano's template engine to re-size the pictures down and make them a box
+                //const img = card.getElementsByTagName('IMG')[0]
+                //img.src = restaurant.YourImage.url + "?tpl=big:box"; // using Xano's template engine to re-size the pictures down and make them a box
 
 
                 
