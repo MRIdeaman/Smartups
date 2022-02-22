@@ -32,6 +32,10 @@ request.onload = function() {
         const h1 = item.getElementsByTagName('H1')[0]
         h1.textContent = data.IdeaName;       
 
+        //test to get creators name on card
+         const h4 = card.getElementsByTagName('H4')[0]
+         h4.textContent = restaurant.YourName;
+
          // For each restaurant, create an paragraph and set the text content to the restaurant's description
                 const p = item.getElementsByTagName('P')[0]
                 p.textContent = `${data.YourIdea.substring(0, 240)}` // Limit to 240 chars
